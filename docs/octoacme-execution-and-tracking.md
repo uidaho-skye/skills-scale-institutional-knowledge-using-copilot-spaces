@@ -17,11 +17,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
+- **QA Lead** develops and maintains testing strategy
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- **Hand-off**: Developers notify QA Lead when PRs are ready for testing
+- **Hand-off**: QA Lead signs off on release readiness to Release Coordinator
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,12 +32,32 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- **Level 1**: Team-level triage in daily standup
+- **Level 2**: PM escalates to Product Lead and dependent teams
+- **Level 3**: Sponsor-level escalation for business-impacting issues
+- **Change-related**: Change Manager evaluates if scope/timeline adjustments needed
+
+## Role-Specific Responsibilities During Execution
+
+### Business Analyst
+- Clarify requirements and acceptance criteria as questions arise
+- Validate that implementation aligns with business objectives
+- Update use cases and documentation based on learnings
+
+### QA Lead
+- Review test coverage weekly
+- Triage defects and work with developers on prioritization
+- Report testing status and quality metrics in delivery sync
+
+### Change Manager (when applicable)
+- Review incoming change requests and assess impact
+- Communicate approved changes to team
+- Ensure change documentation is updated
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] QA Lead notified when features ready for testing
+- [ ] Business Analyst available for requirements clarification

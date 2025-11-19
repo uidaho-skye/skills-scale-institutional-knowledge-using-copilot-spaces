@@ -13,13 +13,17 @@ After each sprint, release, or important milestone. Also after incidents.
 - Follow-up on previous action items
 
 ## Running a Retrospective
+Facilitated by **PM** with full team participation:
+
 - Timebox: 45–75 minutes depending on team size
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- Include insights from all roles (**Developers**, **QA Lead**, **Business Analyst**, **Release Coordinator**, etc.)
 
 ## Tracking Improvements
-- Add action items to the project backlog or issues with clear owners and timelines
+- **PM** adds action items to the project backlog or issues with clear owners and timelines
 - Review outstanding actions in the weekly PM sync
+- **Change Manager** evaluates if process improvements require formal change requests
 
 ## Example Action Item Template
 - Title:
