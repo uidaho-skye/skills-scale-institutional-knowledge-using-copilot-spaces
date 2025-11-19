@@ -9,21 +9,29 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Align timelines, releases, and responsibilities
 
 ## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+1. **Kickoff meeting** with stakeholders and delivery team
+   - **PM** facilitates, **PdM** presents vision, **Business Analyst** reviews requirements
+2. **Create prioritized backlog** with acceptance criteria
+   - **PdM** prioritizes, **Business Analyst** details requirements, **Developers** estimate
+3. **Estimate scope** (T-shirt sizing or story points)
+   - **Developers** provide technical estimates
+4. **Define Definition of Done (DoD)**
+   - **QA Lead** defines quality gates, team agrees on criteria
+5. **Identify dependencies and integration points**
+   - **PM** coordinates, **Business Analyst** documents cross-functional dependencies
+6. **Create release plan and milestone map**
+   - **Release Coordinator** (if assigned) or **PM** creates schedule
+   - **Change Manager** reviews for change management touchpoints
 
 ## Backlog Item Template
-- Title:
-- Description:
-- Acceptance criteria:
-- Priority:
-- Estimate:
-- Owner:
-- Related docs/links:
+- **Title**:
+- **Description**:
+- **Acceptance criteria**: (defined by **Business Analyst** and **PdM**)
+- **Priority**:
+- **Estimate**:
+- **Owner**:
+- **QA considerations**: (reviewed by **QA Lead**)
+- **Related docs/links**:
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
@@ -36,8 +44,13 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
 ## Planning Checklist
-- [ ] Project kickoff held
+- [ ] Project kickoff held with all key roles
+- [ ] **Business Analyst**: Requirements documented and reviewed
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
+- [ ] **Release Coordinator**: Release calendar updated (if applicable)
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] **QA Lead**: Initial test plan / QA approach drafted
+- [ ] **Change Manager**: Change management approach defined (if needed)
+- [ ] **PM**: Risk register initialized
+- [ ] Communication plan established
