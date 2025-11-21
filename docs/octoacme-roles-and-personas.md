@@ -28,6 +28,7 @@ Developers design, build, test, and deliver software components. They collaborat
 
 ### Key Interactions
 - **Product Managers**: Clarify requirements and acceptance criteria, discuss technical feasibility
+- **Product Owner**: Refine user stories, provide implementation estimates, demonstrate completed work
 - **Project Managers**: Provide effort estimates, report progress and blockers
 - **Business Analysts**: Seek clarification on business requirements and use cases
 - **QA Lead**: Collaborate on test strategies, coordinate defect fixes, ensure testability
@@ -57,11 +58,48 @@ Product Managers define what should be built to deliver customer and business va
 - Acceptance criteria and feature specs
 
 ### Key Interactions
+- **Product Owner**: Provide strategic direction, align sprint priorities with roadmap goals
 - **Project Managers**: Align on priorities, timelines, and resource allocation
 - **Developers**: Provide feature context, review designs, approve trade-offs
 - **Business Analysts**: Collaborate on requirements definition, validate business cases
 - **QA Lead**: Define quality expectations and acceptance criteria
 - **Stakeholders**: Gather feedback, communicate product vision and roadmap updates
+
+---
+
+## Product Owner
+
+### Role Summary
+Product Owners translate product vision into actionable sprint goals and user stories. They act as the voice of the customer within the development team, ensuring that day-to-day development work aligns with stakeholder needs and business priorities.
+
+### Responsibilities
+- Define and prioritize user stories in the sprint backlog
+- Collaborate with the development team during sprint planning and refinement
+- Act as the primary point of contact for clarifying requirements during development
+- Accept or reject completed work based on acceptance criteria
+- Balance stakeholder requests with technical constraints and team capacity
+- Ensure value delivery aligns with product roadmap and business goals
+- Facilitate backlog grooming sessions and sprint reviews
+
+### Goals
+- Maximize value delivered in each sprint
+- Maintain a well-defined, prioritized backlog
+- Ensure team understands the "why" behind each feature
+- Foster collaboration between business stakeholders and developers
+
+### Typical Communication
+- Daily availability for team questions and clarifications
+- Sprint planning and backlog refinement sessions
+- Sprint reviews and demos to stakeholders
+- User story documentation and acceptance criteria
+
+### Key Interactions
+- **Product Managers**: Align sprint priorities with overall product roadmap, receive strategic direction
+- **Developers**: Clarify requirements, answer questions, collaborate on trade-offs and technical feasibility
+- **QA Lead**: Define acceptance criteria, validate test coverage, participate in defect triage
+- **Business Analysts**: Refine requirements, validate user stories against business needs
+- **Project Managers**: Coordinate on sprint commitments, communicate impediments and dependencies
+- **Stakeholders**: Demonstrate completed work, gather feedback during sprint reviews
 
 ---
 
@@ -89,11 +127,50 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ### Key Interactions
 - **Product Managers**: Align on scope, priorities, and success metrics
+- **Product Owner**: Coordinate on sprint commitments and backlog priorities
 - **Developers**: Track progress, remove blockers, coordinate sprint planning
 - **Business Analysts**: Incorporate requirements into project plans, validate scope
 - **QA Lead**: Monitor quality risks, coordinate testing timelines
+- **Communications Coordinator**: Ensure stakeholder updates and project visibility
 - **Change Manager**: Assess change impact on project schedule and scope
 - **Release Coordinator**: Synchronize release planning with project milestones
+
+---
+
+## Communications Coordinator
+
+### Role Summary
+Communications Coordinators structure and manage all project communications to ensure transparency, alignment, and timely information flow across stakeholders, teams, and leadership. They prevent communication bottlenecks and maintain consistent messaging.
+
+### Responsibilities
+- Develop and execute project communication plans
+- Create and distribute regular status updates, newsletters, and announcements
+- Manage communication channels and ensure appropriate usage
+- Coordinate meeting schedules and ensure effective facilitation
+- Document and share key decisions and action items
+- Identify and resolve communication gaps or bottlenecks
+- Maintain stakeholder engagement and feedback loops
+- Ensure consistent messaging across all project communications
+
+### Goals
+- Maintain transparent, timely communication across all stakeholders
+- Prevent information silos and miscommunication
+- Build stakeholder confidence through consistent updates
+- Enable effective collaboration through well-structured communication channels
+
+### Typical Communication
+- Weekly stakeholder newsletters and status reports
+- Meeting facilitation and minutes distribution
+- Ad-hoc updates for critical decisions or changes
+- Communication channel management (email, chat, wiki)
+
+### Key Interactions
+- **Project Managers**: Collaborate on status reporting, coordinate stakeholder communications
+- **Product Owner**: Share sprint outcomes and feature demonstrations with stakeholders
+- **Product Managers**: Communicate product vision and roadmap updates to broader audience
+- **All Team Members**: Collect input for status updates, ensure visibility of team achievements
+- **Stakeholders**: Deliver regular updates, solicit feedback, manage expectations
+- **Change Manager**: Communicate change impacts and decisions to affected parties
 
 ---
 
@@ -124,6 +201,7 @@ Business Analysts bridge the gap between stakeholder needs and technical require
 
 ### Key Interactions
 - **Product Managers**: Collaborate on defining features and priorities, validate business value
+- **Product Owner**: Refine user stories and acceptance criteria, validate backlog items against business needs
 - **Project Managers**: Provide requirements updates, support planning and estimation
 - **Developers**: Clarify requirements, answer questions, validate technical approaches
 - **QA Lead**: Define acceptance criteria, support test case development
@@ -158,9 +236,11 @@ QA Leads develop and execute testing strategies to ensure quality standards are 
 
 ### Key Interactions
 - **Developers**: Review code for testability, coordinate defect fixes, pair on test automation
+- **Product Owner**: Validate acceptance criteria, align test coverage with user stories
 - **Project Managers**: Report testing status, flag quality risks, support release decisions
 - **Business Analysts**: Validate acceptance criteria, ensure test coverage aligns with requirements
 - **Release Coordinator**: Confirm release readiness, provide sign-off on quality gates
+- **Support/Operations Lead**: Share production defect patterns, validate operational test scenarios
 
 ---
 
@@ -194,6 +274,7 @@ Change Managers oversee change requests, assess their impact on projects and sys
 - **Project Managers**: Coordinate change impact on project plans, communicate schedule/scope adjustments
 - **Developers**: Understand technical implications, coordinate implementation timing
 - **Business Analysts**: Assess business impact, validate requirements changes
+- **Communications Coordinator**: Coordinate stakeholder notifications for approved changes
 - **Release Coordinator**: Align changes with release schedules, ensure proper deployment planning
 
 ---
@@ -229,6 +310,45 @@ Release Coordinators plan and orchestrate releases across teams and environments
 - **QA Lead**: Verify test completion and quality gates, coordinate UAT and production validation
 - **Developers**: Coordinate code freeze, deployment procedures, and environment readiness
 - **Change Manager**: Ensure changes are approved and aligned with release windows
+- **Support/Operations Lead**: Coordinate release handoff, ensure operational readiness and support coverage
+
+---
+
+## Support/Operations Lead
+
+### Role Summary
+Support/Operations Leads ensure smooth post-release operations and ongoing support for delivered solutions. They manage the handoff from development to operations, coordinate user support, and feed real-world insights back into the development process.
+
+### Responsibilities
+- Plan and execute release handoffs from development to operations teams
+- Establish and maintain support processes and documentation
+- Coordinate incident response and production issue resolution
+- Collect, categorize, and prioritize user feedback and support requests
+- Create and maintain operational runbooks and troubleshooting guides
+- Monitor system health and performance metrics
+- Collaborate with development teams on bug fixes and improvements
+- Ensure adequate support coverage and escalation paths
+- Track and report on support metrics and trends
+
+### Goals
+- Minimize post-release incidents and downtime
+- Ensure rapid resolution of production issues
+- Maintain high user satisfaction with support quality
+- Feed operational insights into continuous improvement cycles
+
+### Typical Communication
+- Daily operational status updates and incident reports
+- Weekly support metrics and trend analysis
+- Handoff meetings with development and release teams
+- User feedback summaries and improvement recommendations
+
+### Key Interactions
+- **Release Coordinator**: Coordinate release handoff, participate in readiness reviews, establish support coverage
+- **Developers**: Report production issues, collaborate on root cause analysis and fixes
+- **QA Lead**: Share production defect patterns, validate fixes in production-like environments
+- **Project Managers**: Provide feedback on operational readiness, report on post-release stability
+- **Product Owner**: Escalate critical user feedback, suggest improvements based on support trends
+- **Communications Coordinator**: Coordinate user communications about incidents, maintenance, and updates
 
 ---
 

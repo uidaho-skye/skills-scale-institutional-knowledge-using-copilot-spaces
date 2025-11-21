@@ -34,8 +34,14 @@ Retrospectives are held after major milestones or incidents to capture lessons l
 
 - **Project Managers**: Coordinate delivery, schedules, risk management, and communications
 - **Product Managers**: Own product vision, backlog prioritization, and success metrics
+- **Product Owners**: Translate vision into actionable sprint goals and user stories
 - **Developers**: Implement features, maintain code quality, and collaborate in reviews
-- **QA Specialists**: Validate builds against quality gates and acceptance criteria
+- **Business Analysts**: Bridge stakeholder needs and technical requirements
+- **QA Lead**: Ensure quality standards through testing strategy and execution
+- **Communications Coordinator**: Structure and manage all project communications
+- **Change Managers**: Oversee change requests and assess project impact
+- **Release Coordinators**: Plan and orchestrate releases across teams
+- **Support/Operations Lead**: Ensure post-release operations and ongoing support
 - **Stakeholders**: Provide inputs, approvals, and strategic guidance
 
 ### Communication Cadence
@@ -54,6 +60,8 @@ Retrospectives are held after major milestones or incidents to capture lessons l
 - Acceptance Criteria & Definition of Done
 - Risk Register
 - Retrospective notes and action items
+- Role Responsibility Matrix (RACI)
+- Phase Handoff Checklists
 
 All process documents are maintained in this centralized repository to enable scalability, consistency, and serve as a single source of truth for onboarding and day-to-day execution.
 
@@ -68,7 +76,15 @@ Explore our comprehensive process guides:
 - [Risk Management & Communication](octoacme-risks-and-communication.md) - Risk registers, communication templates, and escalation paths
 - [Release & Deployment Guide](octoacme-release-and-deployment.md) - Quality gates, testing strategies, and deployment processes
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Capturing lessons learned and measuring improvement impact
+- [Change Management](octoacme-change-management.md) - Change request evaluation and approval processes
 - [Roles & Personas](octoacme-roles-and-personas.md) - Detailed responsibilities and communication rhythms for each team role
+
+## Templates & Tools
+
+Use these templates to improve clarity and minimize role overlap:
+
+- [Role Responsibility Matrix (RACI) Template](role-responsibility-matrix-template.md) - Clarify who is Responsible, Accountable, Consulted, and Informed for key activities
+- [Handoff Checklist Template](handoff-checklist-template.md) - Ensure smooth transitions between project phases and teams
 
 ## Getting Started
 
