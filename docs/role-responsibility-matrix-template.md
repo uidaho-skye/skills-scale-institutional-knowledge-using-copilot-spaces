@@ -9,6 +9,8 @@ This template helps clarify who is Responsible, Accountable, Consulted, and Info
 - **C (Consulted)**: People/roles whose opinions are sought; two-way communication
 - **I (Informed)**: People/roles who are kept up-to-date on progress; one-way communication
 
+**Note**: When a role is both Accountable and Responsible (shown as A/R), it means that role both performs the work and owns the outcome. This is common for activities where individual ownership is clear.
+
 ## Project Lifecycle Activities
 
 | Activity | Product Manager | Product Owner | Project Manager | Developers | Business Analyst | QA Lead | Communications Coordinator | Change Manager | Release Coordinator | Support/Operations Lead |
@@ -32,7 +34,7 @@ This template helps clarify who is Responsible, Accountable, Consulted, and Info
 | Daily standups | I | R | R | R | R | R | I | I | I | I |
 | Sprint reviews | C | A | C | R | C | C | I | I | I | I |
 | **Quality & Testing** |
-| Define acceptance criteria | C | A | I | C | R | R | I | I | I | I |
+| Define acceptance criteria | C | A | I | C | R | C | I | I | I | I |
 | Unit testing | I | I | I | A/R | I | C | I | I | I | I |
 | Integration testing | I | C | I | R | I | A | I | I | C | I |
 | UAT coordination | C | C | C | C | C | A | I | I | C | C |
